@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest xmlns="http://tableau.com/api" xmlns:user="http://tableau.com/api/user-namespace">
+  <dashboard-extension id="com.anthropic.tableau.claude-analytics" version="1.0.0">
+    <default-locale>pt-BR</default-locale>
+    <name resource-id="name"/>
+    <description resource-id="description"/>
+    <author name="Anthropic" email="support@anthropic.com" website="https://www.anthropic.com"/>
+    <min-api-version>1.0</min-api-version>
+    <source-location url="https://jon-batista.github.io/extensão-tableau-claude/tableau-claude-extension.html"/>
+    <icon>
+      data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDgiIGhlaWdodD0iNDgiIHZpZXdCb3g9IjAgMCA0OCA0OCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iNDgiIGhlaWdodD0iNDgiIHJ4PSI4IiBmaWxsPSIjNjY3ZWVhIi8+PHRleHQgeD0iMjQiIHk9IjI4IiBmb250LXNpemU9IjI0IiBmb250LXdlaWdodD0iYm9sZCIgZmlsbD0id2hpdGUiIHRleHQtYW5jaG9yPSJtaWRkbGUiPkM8L3RleHQ+PC9zdmc+
+    </icon>
+    <permissions>
+      <permission>webstore_permission_dashboard</permission>
+    </permissions>
+  </dashboard-extension>
+  <resources>
+    <resource id="name">
+      <text locale="pt-BR">Claude Analytics</text>
+      <text locale="en-US">Claude Analytics</text>
+    </resource>
+    <resource id="description">
+      <text locale="pt-BR">Analise seus dados com IA usando Claude. Faça perguntas sobre seus dados e obtenha insights em segundos.</text>
+      <text locale="en-US">Analyze your data with AI using Claude. Ask questions about your data and get insights in seconds.</text>
+    </resource>
+  </resources>
+</manifest>
